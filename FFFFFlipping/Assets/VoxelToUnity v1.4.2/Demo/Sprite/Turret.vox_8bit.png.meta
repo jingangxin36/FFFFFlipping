@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: a72a739a62a09ec43b4a2e6ae3e0cccc
+timeCreated: 1493361008
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Turret.vox_8bit_45
+    21300002: Turret.vox_8bit_135
+    21300004: Turret.vox_8bit_225
+    21300006: Turret.vox_8bit_315
+    21300008: Turret.vox_8bit_0
+    21300010: Turret.vox_8bit_90
+    21300012: Turret.vox_8bit_180
+    21300014: Turret.vox_8bit_270
+    21300016: Turret.vox_8bit_23
+    21300018: Turret.vox_8bit_113
+    21300020: Turret.vox_8bit_203
+    21300022: Turret.vox_8bit_293
+    21300024: Turret.vox_8bit_68
+    21300026: Turret.vox_8bit_158
+    21300028: Turret.vox_8bit_248
+    21300030: Turret.vox_8bit_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Turret.vox_8bit_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5430622, y: 0.19233385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_135
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25367376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_225
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.45693782, y: 0.2460365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_315
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.16027787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53070176, y: 0.1255525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_90
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 27
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46842238, y: 0.19210039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_180
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 27
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46929824, y: 0.20793599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_270
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 27
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53157765, y: 0.1654805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5468514, y: 0.15158655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_113
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 53
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4950938, y: 0.23975874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_203
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 53
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.45590454, y: 0.21884456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_293
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 53
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5049062, y: 0.16302328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5187831, y: 0.20066133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_158
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 79
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48776224, y: 0.22899584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_248
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.48121694, y: 0.20382059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_8bit_338
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5122378, y: 0.15632944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

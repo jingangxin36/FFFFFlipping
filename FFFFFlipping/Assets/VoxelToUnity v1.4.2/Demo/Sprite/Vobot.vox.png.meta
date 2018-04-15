@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 7c86fcb706823e64e87394e5a1da2f37
+timeCreated: 1493361003
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vobot.vox_45
+    21300002: Vobot.vox_135
+    21300004: Vobot.vox_225
+    21300006: Vobot.vox_315
+    21300008: Vobot.vox_0
+    21300010: Vobot.vox_90
+    21300012: Vobot.vox_180
+    21300014: Vobot.vox_270
+    21300016: Vobot.vox_23
+    21300018: Vobot.vox_113
+    21300020: Vobot.vox_203
+    21300022: Vobot.vox_293
+    21300024: Vobot.vox_68
+    21300026: Vobot.vox_158
+    21300028: Vobot.vox_248
+    21300030: Vobot.vox_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vobot.vox_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.22685483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_135
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.24555814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_225
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.22784963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_315
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21141174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.52280706, y: 0.20804864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_90
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 114
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.47716048, y: 0.23055975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_180
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 114
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.47719297, y: 0.21365064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_270
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 114
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.52283955, y: 0.20605826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 227
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5443446, y: 0.22035334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_113
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4870661, y: 0.25695133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_203
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 227
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.45565543, y: 0.22058739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_293
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 227
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5129339, y: 0.21155459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 340
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5053574, y: 0.23147741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_158
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 340
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22885537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_248
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 340
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.49464262, y: 0.23689695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_338
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 340
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21209024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

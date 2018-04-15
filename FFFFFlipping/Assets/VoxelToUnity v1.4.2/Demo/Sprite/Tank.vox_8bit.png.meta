@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 25208ce3e105c094ab4bd9e6629f5a99
+timeCreated: 1493361007
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tank.vox_8bit_45
+    21300002: Tank.vox_8bit_135
+    21300004: Tank.vox_8bit_225
+    21300006: Tank.vox_8bit_315
+    21300008: Tank.vox_8bit_0
+    21300010: Tank.vox_8bit_90
+    21300012: Tank.vox_8bit_180
+    21300014: Tank.vox_8bit_270
+    21300016: Tank.vox_8bit_23
+    21300018: Tank.vox_8bit_113
+    21300020: Tank.vox_8bit_203
+    21300022: Tank.vox_8bit_293
+    21300024: Tank.vox_8bit_68
+    21300026: Tank.vox_8bit_158
+    21300028: Tank.vox_8bit_248
+    21300030: Tank.vox_8bit_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tank.vox_8bit_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.58323133, y: 0.20391506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_135
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.56242347, y: 0.34164804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_225
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.41676864, y: 0.35167387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_315
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.43757653, y: 0.2244977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.51441103, y: 0.162247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48564777, y: 0.2211748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_180
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 36
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48558897, y: 0.30941537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_270
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 36
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.51435226, y: 0.26072678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.55733556, y: 0.17426823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.52557063, y: 0.29255176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_203
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 71
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.44266438, y: 0.3325312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_293
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 71
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47510228, y: 0.24249694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 106
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.53575635, y: 0.21427004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_158
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 106
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5307526, y: 0.33957297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_248
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 106
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46424365, y: 0.3253403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_8bit_338
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 106
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4692474, y: 0.19620945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

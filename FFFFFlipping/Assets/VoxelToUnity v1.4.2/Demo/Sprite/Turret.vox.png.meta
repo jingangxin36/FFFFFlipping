@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 6938b35408f48cd4dafc99a9786a6ab1
+timeCreated: 1493361003
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Turret.vox_45
+    21300002: Turret.vox_135
+    21300004: Turret.vox_225
+    21300006: Turret.vox_315
+    21300008: Turret.vox_0
+    21300010: Turret.vox_90
+    21300012: Turret.vox_180
+    21300014: Turret.vox_270
+    21300016: Turret.vox_23
+    21300018: Turret.vox_113
+    21300020: Turret.vox_203
+    21300022: Turret.vox_293
+    21300024: Turret.vox_68
+    21300026: Turret.vox_158
+    21300028: Turret.vox_248
+    21300030: Turret.vox_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Turret.vox_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.54289377, y: 0.17285027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_135
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2517772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_225
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4571063, y: 0.22995374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_315
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.15766226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5293427, y: 0.12838387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_90
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 94
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.470892, y: 0.19442591}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_180
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 94
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.47065726, y: 0.20568731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_270
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 94
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.529108, y: 0.17196137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 187
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5457257, y: 0.15284891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_113
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 187
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4950938, y: 0.2294278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_203
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 187
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.45427424, y: 0.21884456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_293
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 187
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5049062, y: 0.1642442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5187831, y: 0.18877833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_158
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 280
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.48805627, y: 0.22899584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_248
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 280
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.48121694, y: 0.2048937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Turret.vox_338
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 280
+        width: 71
+        height: 92
+      alignment: 9
+      pivot: {x: 0.51194376, y: 0.14268656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

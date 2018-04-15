@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: d71f40e36381f4843b1cf75574bcb463
+timeCreated: 1493361008
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vobot.vox_8bit_45
+    21300002: Vobot.vox_8bit_135
+    21300004: Vobot.vox_8bit_225
+    21300006: Vobot.vox_8bit_315
+    21300008: Vobot.vox_8bit_0
+    21300010: Vobot.vox_8bit_90
+    21300012: Vobot.vox_8bit_180
+    21300014: Vobot.vox_8bit_270
+    21300016: Vobot.vox_8bit_23
+    21300018: Vobot.vox_8bit_113
+    21300020: Vobot.vox_8bit_203
+    21300022: Vobot.vox_8bit_293
+    21300024: Vobot.vox_8bit_68
+    21300026: Vobot.vox_8bit_158
+    21300028: Vobot.vox_8bit_248
+    21300030: Vobot.vox_8bit_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.23749217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_135
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.24956752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_225
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.23455124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_315
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2226505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.52302635, y: 0.20274045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_90
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 32
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47569507, y: 0.22470084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_180
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47697365, y: 0.21761271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_270
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 32
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5243049, y: 0.21422437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5420509, y: 0.21724615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_113
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 63
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4873233, y: 0.26870662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_203
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4560377, y: 0.22058739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_293
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 63
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5126767, y: 0.20924702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.50547916, y: 0.22932923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_158
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 94
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23789352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_248
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 94
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49474913, y: 0.23999228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Vobot.vox_8bit_338
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 94
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20889124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 9eb20f9361ae92e4592c604c2da0eee7
+timeCreated: 1493361004
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tank.vox_45
+    21300002: Tank.vox_135
+    21300004: Tank.vox_225
+    21300006: Tank.vox_315
+    21300008: Tank.vox_0
+    21300010: Tank.vox_90
+    21300012: Tank.vox_180
+    21300014: Tank.vox_270
+    21300016: Tank.vox_23
+    21300018: Tank.vox_113
+    21300020: Tank.vox_203
+    21300022: Tank.vox_293
+    21300024: Tank.vox_68
+    21300026: Tank.vox_158
+    21300028: Tank.vox_248
+    21300030: Tank.vox_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tank.vox_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5813953, y: 0.20391506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_135
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5610465, y: 0.3419937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_225
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.41860464, y: 0.35591176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_315
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.43895352, y: 0.22708702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5142196, y: 0.17081779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 135
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4859007, y: 0.23270154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_180
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 135
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.48578042, y: 0.3176896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_270
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 135
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5140993, y: 0.2684363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 269
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5585035, y: 0.18161556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_113
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 269
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.52539307, y: 0.29781595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_203
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 269
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.44149643, y: 0.33565882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_293
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 269
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.47460693, y: 0.24942948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 403
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5367227, y: 0.22071508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_158
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 403
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.53137904, y: 0.34256905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_248
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 403
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.46327725, y: 0.33217815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tank.vox_338
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 403
+        width: 144
+        height: 133
+      alignment: 9
+      pivot: {x: 0.46862096, y: 0.20391841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

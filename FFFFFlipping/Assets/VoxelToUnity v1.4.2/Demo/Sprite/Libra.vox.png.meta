@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: bf0855348dc6fe342b208c585592b3d8
+timeCreated: 1493361005
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Libra.vox_45
+    21300002: Libra.vox_135
+    21300004: Libra.vox_225
+    21300006: Libra.vox_315
+    21300008: Libra.vox_0
+    21300010: Libra.vox_90
+    21300012: Libra.vox_180
+    21300014: Libra.vox_270
+    21300016: Libra.vox_23
+    21300018: Libra.vox_113
+    21300020: Libra.vox_203
+    21300022: Libra.vox_293
+    21300024: Libra.vox_68
+    21300026: Libra.vox_158
+    21300028: Libra.vox_248
+    21300030: Libra.vox_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Libra.vox_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.42647058, y: 0.14360821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_135
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.09386548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_225
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.57352936, y: 0.08124762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_315
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.52941173, y: 0.10704344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5200341, y: 0.119882464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_90
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 196
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47957516, y: 0.13527462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_180
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 196
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4799659, y: 0.07232743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_270
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 196
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.52042484, y: 0.09254944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47127825, y: 0.13584308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_113
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 391
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4836445, y: 0.11517252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_203
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 391
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5287218, y: 0.07601114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_293
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 391
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.51614034, y: 0.09968627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 586
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.40465447, y: 0.14328262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_158
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 586
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47296572, y: 0.07531985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_248
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 586
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5953455, y: 0.0866014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_338
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 586
+        width: 102
+        height: 194
+      alignment: 9
+      pivot: {x: 0.52730197, y: 0.107261114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

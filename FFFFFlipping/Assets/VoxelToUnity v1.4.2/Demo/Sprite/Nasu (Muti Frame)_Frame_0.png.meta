@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 88eefff090e47994ca243335568ca6d1
+timeCreated: 1493361004
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Nasu (Muti Frame)_Frame_0_45
+    21300002: Nasu (Muti Frame)_Frame_0_135
+    21300004: Nasu (Muti Frame)_Frame_0_225
+    21300006: Nasu (Muti Frame)_Frame_0_315
+    21300008: Nasu (Muti Frame)_Frame_0_0
+    21300010: Nasu (Muti Frame)_Frame_0_90
+    21300012: Nasu (Muti Frame)_Frame_0_180
+    21300014: Nasu (Muti Frame)_Frame_0_270
+    21300016: Nasu (Muti Frame)_Frame_0_23
+    21300018: Nasu (Muti Frame)_Frame_0_113
+    21300020: Nasu (Muti Frame)_Frame_0_203
+    21300022: Nasu (Muti Frame)_Frame_0_293
+    21300024: Nasu (Muti Frame)_Frame_0_68
+    21300026: Nasu (Muti Frame)_Frame_0_158
+    21300028: Nasu (Muti Frame)_Frame_0_248
+    21300030: Nasu (Muti Frame)_Frame_0_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.46656537, y: 0.107309155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_135
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.3974165, y: 0.04531318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_225
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.53343457, y: 0.02276766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_315
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.6025835, y: 0.09020681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5455927, y: 0.13429953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 80
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.45508274, y: 0.10180486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_180
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 80
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.4544073, y: 0.03879561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_270
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5449173, y: 0.07618653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.50792825, y: 0.12570307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_113
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.41742313, y: 0.06731893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_203
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 159
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.4920718, y: 0.02678961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_293
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 159
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5825769, y: 0.07557542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 238
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.4548372, y: 0.104983315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_158
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 238
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.41550994, y: 0.038843796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_248
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 238
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5451628, y: 0.037834644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Nasu (Muti Frame)_Frame_0_338
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 238
+        width: 47
+        height: 78
+      alignment: 9
+      pivot: {x: 0.58448994, y: 0.10786788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

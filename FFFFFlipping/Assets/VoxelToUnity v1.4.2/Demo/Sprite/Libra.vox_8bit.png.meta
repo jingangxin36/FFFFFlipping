@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 04585cff9a1a3bc4b8e3232163bcbea9
+timeCreated: 1493361007
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Libra.vox_8bit_45
+    21300002: Libra.vox_8bit_135
+    21300004: Libra.vox_8bit_225
+    21300006: Libra.vox_8bit_315
+    21300008: Libra.vox_8bit_0
+    21300010: Libra.vox_8bit_90
+    21300012: Libra.vox_8bit_180
+    21300014: Libra.vox_8bit_270
+    21300016: Libra.vox_8bit_23
+    21300018: Libra.vox_8bit_113
+    21300020: Libra.vox_8bit_203
+    21300022: Libra.vox_8bit_293
+    21300024: Libra.vox_8bit_68
+    21300026: Libra.vox_8bit_158
+    21300028: Libra.vox_8bit_248
+    21300030: Libra.vox_8bit_338
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Libra.vox_8bit_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.42222223, y: 0.14394966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_135
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47037038, y: 0.09181034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_225
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.57777774, y: 0.083176956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_315
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5296296, y: 0.11251443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52012885, y: 0.11564358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_90
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 52
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47685575, y: 0.12490348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_180
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 52
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47987118, y: 0.0708527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_270
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 52
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52314425, y: 0.08830542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47114244, y: 0.13400036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_113
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 103
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48374012, y: 0.11554121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_203
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 103
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5288576, y: 0.079790175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_293
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 103
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.51707286, y: 0.097314045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.40280473, y: 0.14362438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_158
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 154
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47269806, y: 0.07825217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_248
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 154
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5914779, y: 0.0866014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Libra.vox_8bit_338
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 154
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52730197, y: 0.11018382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
