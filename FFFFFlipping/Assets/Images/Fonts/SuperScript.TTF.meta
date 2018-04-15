@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d676018a43ef3904d9fc13b862894dd8
+timeCreated: 1522585551
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 20
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: superscript
+  fontNames:
+  - SuperScript
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
