@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : Singleton<PlayerController> {
 
     /// <summary>
     /// 主角的跳跃速度
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour {
 
     private bool mIsFirstTap;
 
+    private bool mIsKilled;
     /// <summary>
     /// 主角当前位置X轴坐标
     /// </summary>
@@ -41,30 +42,37 @@ public class PlayerController : MonoBehaviour {
     }
 
     void Update() {
-        //获得左右方向的偏移量, -1表示按下左键, 1表示按下右键
-        var keyHorizontal = Input.GetAxis("Horizontal");
-        if (keyHorizontal > 0) {
-            if (!IsInvoking("RightJump")) {
-                InvokeRepeating("RightJump", 0f, speed / 0.1f);
+        if (!mIsKilled) {
+            //获得左右方向的偏移量, -1表示按下左键, 1表示按下右键
+            var keyHorizontal = Input.GetAxis("Horizontal");
+            if (keyHorizontal > 0) {
+                if (!IsInvoking("RightJump")) {
+                    InvokeRepeating("RightJump", 0f, speed / 0.1f);
+                }
+
+            }
+            else if (keyHorizontal < 0) {
+                if (!IsInvoking("LeftJump")) {
+                    InvokeRepeating("LeftJump", 0f, speed / 0.1f);
+                }
+            }
+            //如果停止按左右方向键
+            if (Math.Abs(keyHorizontal) < 0.1) {
+                CancelInvoke("LeftJump");
+                CancelInvoke("RightJump");
             }
 
-        }
-        else if (keyHorizontal < 0) {
-            if (!IsInvoking("LeftJump")) {
-                InvokeRepeating("LeftJump", 0f, speed / 0.1f);
+            //获得前后方向的偏移量, -1表示按下下键
+            var keyVertical = Input.GetAxis("Vertical");
+            if (mBackable && keyVertical < 0) {
+                Invoke("JumpBack", 0);
             }
         }
-        //如果停止按左右方向键
-        if (Math.Abs(keyHorizontal) < 0.1) {
-            CancelInvoke("LeftJump");
-            CancelInvoke("RightJump");
-        }
 
-        //获得前后方向的偏移量, -1表示按下下键
-        var keyVertical = Input.GetAxis("Vertical");
-        if (mBackable && keyVertical < 0) {
-            Invoke("JumpBack", 0);
-        }
+    }
+
+    public void SetPlayerKilled() {
+        mIsKilled = true;
     }
 
     /// <summary>

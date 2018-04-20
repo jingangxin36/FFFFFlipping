@@ -10,6 +10,6 @@ public class TrapCell : Cell {
 
     public override void OnPickUp() {
         AchievementManager.Instance.PickUp(Type);
-        ReleaseIntoPool();
+        //ReleaseIntoPool();
     }
 }

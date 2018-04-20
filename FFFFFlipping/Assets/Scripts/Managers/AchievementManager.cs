@@ -38,7 +38,7 @@ public class AchievementManager : Singleton<AchievementManager> {
                 EnemyOnKill();
                 break;
             case CellType.TRAP:
-                GameController.Instance.GameOver();
+                PlayerOnKilled();
                 break;
         }
     }
@@ -70,7 +70,7 @@ public class AchievementManager : Singleton<AchievementManager> {
     private void RefreshXpInfo() {
         if (mXp <= 0) {
             xpSlider.value = 0;
-            GameController.Instance.GameOver();
+            PlayerOnKilled();
             return;
         }
         if (mXp >= 100) {
@@ -79,4 +79,9 @@ public class AchievementManager : Singleton<AchievementManager> {
         xp.text = mXp + " ";
         xpSlider.value = (float)mXp / 100;
     }
+
+    private void PlayerOnKilled() {
+        GameController.Instance.GameOver();
+    }
+
 }
