@@ -9,5 +9,10 @@ public class PickUp : MonoBehaviour {
             //Debug.Log("OnPickUp " + poolItem);
             poolItem.OnPickUp();
         }
+        else {
+            if (other.transform.GetComponent<Cell>() != null) {
+                Debug.LogError("不明确Cell: " + other.name+"未设置Tag!!");
+            }
+        }
     }
 }

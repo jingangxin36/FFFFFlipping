@@ -25,7 +25,7 @@ public class GameController :Singleton<GameController> {
         PlayerController.Instance.SetPlayerKilled();
         //todo 显示成就, 功能按钮,
         var achievementInstance = AchievementManager.Instance;
-        distance.text = player.position.z + "";
+        distance.text = (Convert.ToInt32(player.position.z)) + "";
         killCount.text = achievementInstance.killEnemyCount.text + "";
         coinCount.text = achievementInstance.coinCount.text + "";
         score.text = (Convert.ToInt32(killCount.text) + Convert.ToInt32(distance.text)).ToString();

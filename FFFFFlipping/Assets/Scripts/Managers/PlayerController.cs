@@ -36,9 +36,13 @@ public class PlayerController : Singleton<PlayerController> {
     private int mCurrentX;
 
     void Start() {
+
         mCurrentX = 1;
         mBackable = false;
         mIsFirstTap = true;
+        Vector3 newVector3 = transform.position;
+        newVector3.z = 0;
+        transform.position = newVector3;
     }
 
     void Update() {
@@ -93,14 +97,13 @@ public class PlayerController : Singleton<PlayerController> {
     /// </summary>
     /// <param name="direction">-1表示向左跳, 1表示向右跳</param>
     private void ForwardJump(int direction) {
-        //Debug.Log( direction);
         mCurrentX += direction;
         if (direction  == -1) {
             //越界了
             if (mCurrentX < 0 ) {
                 mCurrentX = 2;
                 var newVector3 = transform.position;
-                newVector3.x = 4;
+                newVector3.x = 2 * characterPositionOffset;
                 transform.position = newVector3;
             }
             transform.Translate(Vector3.left * characterPositionOffset);
@@ -110,7 +113,7 @@ public class PlayerController : Singleton<PlayerController> {
             if (mCurrentX > 2) {
                 mCurrentX = 0;
                 var newVector3 = transform.position;
-                newVector3.x = -4;
+                newVector3.x = -2 * characterPositionOffset;
                 transform.position = newVector3;
             }
             transform.Translate(Vector3.right * characterPositionOffset);
@@ -127,6 +130,8 @@ public class PlayerController : Singleton<PlayerController> {
             mBackable = true;
         }
         transform.Translate(Vector3.forward * characterPositionOffset);
+        Debug.Log(Vector3.forward * characterPositionOffset);
+
         transform.GetComponent<Rigidbody>().AddForce(new Vector3(0f, jumpHeight*10, 0f));
     }
     /// <summary>

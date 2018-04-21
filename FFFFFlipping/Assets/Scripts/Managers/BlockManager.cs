@@ -26,7 +26,7 @@ public class BlockManager : Singleton<BlockManager> {
 
     protected override void Awake() {
         base.Awake();
-        mLastBlockZ = 0;
+        mLastBlockZ = 0 - blocksPositionOffset;
         mBlocksLength = blockPrefabs.Length;
         mCellTypes = new CellType[3, maxRow];
     }
@@ -65,6 +65,8 @@ public class BlockManager : Singleton<BlockManager> {
     /// </summary>
     /// <param name="newBlock">指定的block</param>
     public void ChangeBlockPosition(Transform newBlock) {
+        //todo 需要根据配置表实例化道具
+        GenerateCell();
         var newBlockPos = newBlock.position;
         newBlockPos.z = blocksPositionOffset + mLastBlockZ;
         newBlock.position = newBlockPos;
@@ -76,8 +78,7 @@ public class BlockManager : Singleton<BlockManager> {
             Debug.Log("过关了");
             mCurrentRowIndex = 0;
         }
-        //todo 需要根据配置表实例化道具
-        GenerateCell();
+
     }
 
     /// <summary>
@@ -90,7 +91,7 @@ public class BlockManager : Singleton<BlockManager> {
             int tempXIndex;
             int tempYIndex;
             do {
-                tempYIndex = UnityEngine.Random.Range(0, maxRow);
+                tempYIndex = UnityEngine.Random.Range(1, maxRow);
                 tempXIndex = UnityEngine.Random.Range(0, 3);
             } while (mCellTypes[tempXIndex, tempYIndex] != CellType.NULL);
             mCellTypes[tempXIndex, tempYIndex] = targetType;
@@ -129,7 +130,7 @@ public class BlockManager : Singleton<BlockManager> {
     /// <param name="xIndex">目标cell的x轴索引</param>
     /// <returns></returns>
     private Vector3 GetCellPosition(int xIndex) {
-        float cellX = (xIndex - 1) * 2;
+        float cellX = (xIndex - 1) * blocksPositionOffset;
         float cellZ = mLastBlockZ + blocksPositionOffset;
         return new Vector3(cellX, 0, cellZ);
     }
