@@ -5,7 +5,8 @@
 ### 游戏截图
 
 ![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/1.png)
-
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/2.png)
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/3.png)
 ### APK下载
 
 [FFFFFlipping-V1.1.apk](https://github.com/jingangxin36/FFFFFlipping/releases/download/V1.1/FFFFFlipping-V1.1.apk)
