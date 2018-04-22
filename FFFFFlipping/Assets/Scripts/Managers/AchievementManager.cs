@@ -21,6 +21,8 @@ public class AchievementManager : Singleton<AchievementManager> {
     private int mXp = 100;
     private int mCoinCount;
 
+    public int lowBloodLimit;
+
     void Start () {
         RefreshUI();
     }
@@ -52,9 +54,8 @@ public class AchievementManager : Singleton<AchievementManager> {
 
     private void EnemyOnKill() {
         mKillEnemyCount++;
-        mXp += 10;
         killEnemyCount.text = mKillEnemyCount + " ";
-        RefreshXpInfo();
+        ChangeXp(1);
     }
 
     private void CoinOnPickUp() {
@@ -63,9 +64,31 @@ public class AchievementManager : Singleton<AchievementManager> {
     }
 
     private void XpDecrease() {
-        mXp -= xpDecreaseSpeed;
-        RefreshXpInfo();
+        ChangeXp(-1);
     }
+
+
+    private void ChangeXp(int direction) {
+        if (transform.gameObject.activeSelf) {
+            if (direction == -1) {
+                //是否提示低血
+                if (mXp <= lowBloodLimit + xpDecreaseSpeed && mXp >= lowBloodLimit) {
+                    GameController.Instance.LowBlood();
+                }
+            }
+
+            if (direction == 1) {
+                //是否恢复正常血
+                if (mXp >= lowBloodLimit + xpDecreaseSpeed && mXp <= lowBloodLimit + 2 * xpDecreaseSpeed) {
+                    GameController.Instance.ResumeNormalBlood();
+                }
+            }
+            mXp += xpDecreaseSpeed * direction;
+            RefreshXpInfo();
+        }
+
+    }
+
 
     private void RefreshXpInfo() {
         if (mXp <= 0) {
@@ -73,7 +96,7 @@ public class AchievementManager : Singleton<AchievementManager> {
             PlayerOnKilled();
             return;
         }
-        if (mXp >= 100) {
+        else if (mXp >= 100) {
             mXp = 100;
         }
         xp.text = mXp + " ";

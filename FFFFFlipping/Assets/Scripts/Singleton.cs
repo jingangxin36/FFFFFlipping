@@ -4,6 +4,10 @@ using UnityEngine;
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
     protected static T instance;
 
+    public static T Instance => instance;
+
+    public static bool InstanceExists => instance != null;
+
     protected virtual void Awake() {
         if (Instance == null) {
             instance = GetComponent<T>();
@@ -12,10 +16,6 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
             Debug.LogError("Something went wrong.  There should never be more than one instance of " + typeof(T));
         }
     }
-
-    public static T Instance => instance;
-
-    public static bool InstanceExists => instance != null;
 
     public virtual void ReleaseIntoPool(GameObject go) {
         

@@ -137,20 +137,20 @@ public class PlayerController : Singleton<PlayerController> {
             }
             transform.Translate(Vector3.right * characterPositionOffset);
         }
-        PlayerJump();
+        JumpForward();
     }
     /// <summary>
     /// 向前跳
     /// </summary>
-    public void PlayerJump() {
+    public void JumpForward() {
         if (mIsFirstTap) {
             AchievementManager.Instance.StartDecreaseXp();
             mIsFirstTap = false;
             mBackable = true;
             backButton.interactable = true;
         }
+        StartCoroutine(Jump());
         transform.Translate(Vector3.forward * characterPositionOffset);
-        transform.GetComponent<Rigidbody>().AddForce(new Vector3(0f, jumpHeight * 10, 0f));
     }
     /// <summary>
     /// 向后跳
@@ -170,5 +170,11 @@ public class PlayerController : Singleton<PlayerController> {
         yield return new WaitForSeconds(backableTime);
         mBackable = true;
         backButton.interactable = mBackable;
+    }
+
+    private IEnumerator Jump() {
+        yield return null;
+        transform.GetComponent<Rigidbody>().AddForce(new Vector3(0f, jumpHeight * 10, 0f));
+        
     }
 }

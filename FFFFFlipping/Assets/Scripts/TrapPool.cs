@@ -6,16 +6,26 @@ public class TrapPool : Singleton<TrapPool> {
     public CellType cellType;
     public float probability;
     public GameObject[] prefabs;
-    private int mPreCache;
-    private Pool<GameObject> mPool;
 
     public int Count =>
         mPool.Count;
+
+    private int mPreCache;
+    private Pool<GameObject> mPool;
 
     protected override void Awake() {
 
         base.Awake();
         mPool = new Pool<GameObject>(NewGameObject, 0);
+    }
+
+    private void Start() {
+        mPreCache = (int)(BlockManager.Instance.maxSizeInSight * 6 * probability);
+        for (int i = 0; i < mPreCache; i++) {
+            GameObject go = NewGameObject();
+            go.transform.parent = transform;
+            Release(go, true);
+        }
     }
 
     protected virtual GameObject NewGameObject() =>
@@ -26,15 +36,6 @@ public class TrapPool : Singleton<TrapPool> {
             go.SetActive(false);
         }
         mPool.Release(go);
-    }
-
-    private void Start() {
-        mPreCache = (int)(BlockManager.Instance.maxSizeInSight * 6 * probability);
-        for (int i = 0; i < mPreCache; i++) {
-            GameObject go = NewGameObject();
-            go.transform.parent = transform;
-            Release(go, true);
-        }
     }
 
     public virtual GameObject Take(bool random = true, bool activate = true) {

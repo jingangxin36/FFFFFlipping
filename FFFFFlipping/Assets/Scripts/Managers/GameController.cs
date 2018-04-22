@@ -13,7 +13,7 @@ public class GameController :Singleton<GameController> {
     public Text coinCount;
     public Text score;
     public Transform player;
-
+    public GameObject lowBloodView;
 
     public bool isDead;
     /// <summary>
@@ -28,7 +28,7 @@ public class GameController :Singleton<GameController> {
         coinCount.text = achievementInstance.coinCount.text + "";
         score.text = (Convert.ToInt32(killCount.text) + Convert.ToInt32(distance.text)).ToString();
 
-        //Time.timeScale = 0;
+        lowBloodView.SetActive(false);
         gameView.SetActive(false);
         gameOverView.SetActive(true);
     }
@@ -44,5 +44,15 @@ public class GameController :Singleton<GameController> {
 
     public void ResumeGame() {
         Time.timeScale = 1;
+    }
+
+    public void LowBlood() {
+        Time.timeScale = 0.5f;
+        lowBloodView.SetActive(true);
+    }
+
+    public void ResumeNormalBlood() {
+        Time.timeScale = 1;
+        lowBloodView.SetActive(false);
     }
 }

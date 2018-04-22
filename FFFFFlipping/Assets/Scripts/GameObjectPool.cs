@@ -3,12 +3,24 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class GameObjectPool : MonoBehaviour {
-    private Pool<GameObject> mPool;
     public int preCache;
     public GameObject[] prefabs;
 
+    public int Count =>
+        mPool.Count;
+
+    private Pool<GameObject> mPool;
+
     private void Awake() {
         mPool = new Pool<GameObject>(NewGameObject, 0);
+    }
+
+    private void Start() {
+        for (int i = 0; i < preCache; i++) {
+            GameObject go = NewGameObject();
+            go.transform.parent = transform;
+            Release(go, true);
+        }
     }
 
     protected virtual GameObject NewGameObject() =>
@@ -21,14 +33,6 @@ public class GameObjectPool : MonoBehaviour {
         mPool.Release(go);
     }
 
-    private void Start() {
-        for (int i = 0; i < preCache; i++) {
-            GameObject go = NewGameObject();
-            go.transform.parent = transform;
-            Release(go, true);
-        }
-    }
-
     public virtual GameObject Take(bool random = true, bool activate = true) {
         GameObject obj2 = mPool.Take(true);
         if (activate) {
@@ -36,8 +40,5 @@ public class GameObjectPool : MonoBehaviour {
         }
         return obj2;
     }
-
-    public int Count =>
-        mPool.Count;
 }
 

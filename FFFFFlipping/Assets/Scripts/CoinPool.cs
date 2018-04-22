@@ -6,17 +6,28 @@ public class CoinPool : Singleton<CoinPool> {
     public CellType cellType;
     public float probability;
     public GameObject[] prefabs;
-    private int mPreCache;
-
-    private Pool<GameObject> mPool;
 
     public int Count =>
         mPool.Count;
+
+    private int mPreCache;
+
+    private Pool<GameObject> mPool;
 
     protected override void Awake() {
 
         base.Awake();
         mPool = new Pool<GameObject>(NewGameObject, 0);
+    }
+
+    private void Start() {
+        mPreCache = (int)(BlockManager.Instance.maxSizeInSight * 6 * probability);
+        //Debug.Log(mPreCache);
+        for (int i = 0; i < mPreCache; i++) {
+            GameObject go = NewGameObject();
+            go.transform.parent = transform;
+            Release(go, true);
+        }
     }
 
     protected virtual GameObject NewGameObject() =>
@@ -28,16 +39,6 @@ public class CoinPool : Singleton<CoinPool> {
             go.SetActive(false);
         }
         mPool.Release(go);
-    }
-
-    private void Start() {
-        mPreCache = (int)(BlockManager.Instance.maxSizeInSight * 6 * probability);
-        //Debug.Log(mPreCache);
-        for (int i = 0; i < mPreCache; i++) {
-            GameObject go = NewGameObject();
-            go.transform.parent = transform;
-            Release(go, true);
-        }
     }
 
 
