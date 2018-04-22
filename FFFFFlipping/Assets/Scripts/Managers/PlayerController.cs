@@ -30,6 +30,8 @@ public class PlayerController : Singleton<PlayerController> {
     private bool mIsFirstTap;
 
     private bool mIsKilled;
+
+    private bool mIsPressing;
     /// <summary>
     /// 主角当前位置X轴坐标
     /// </summary>
@@ -39,6 +41,7 @@ public class PlayerController : Singleton<PlayerController> {
 
         mCurrentX = 1;
         mBackable = false;
+        backButton.interactable = false;
         mIsFirstTap = true;
         Vector3 newVector3 = transform.position;
         newVector3.z = 0;
@@ -46,6 +49,8 @@ public class PlayerController : Singleton<PlayerController> {
     }
 
     void Update() {
+
+#if UNITY_EDITOR 
         if (!mIsKilled) {
             //获得左右方向的偏移量, -1表示按下左键, 1表示按下右键
             var keyHorizontal = Input.GetAxis("Horizontal");
@@ -53,7 +58,6 @@ public class PlayerController : Singleton<PlayerController> {
                 if (!IsInvoking("RightJump")) {
                     InvokeRepeating("RightJump", 0f, speed / 0.1f);
                 }
-
             }
             else if (keyHorizontal < 0) {
                 if (!IsInvoking("LeftJump")) {
@@ -73,18 +77,33 @@ public class PlayerController : Singleton<PlayerController> {
             }
         }
 
+#endif
+
+#if UNITY_ANDROID && !UNITY_EDITOR
+        if (Input.touchCount != 1) {
+            CancelInvoke("LeftJump");
+            CancelInvoke("RightJump");
+        }
+#endif
+
     }
+
 
     public void SetPlayerKilled() {
         mIsKilled = true;
     }
+
+    //public void LeftButtonOnClick() {
+    //}
+
+    //public void RightButtonOnClick() {
+    //}
 
     /// <summary>
     /// 主角向左跳一次
     /// </summary>
     public void LeftJump() {
         ForwardJump(-1);
-
     }
     /// <summary>
     /// 主角向右跳一次
@@ -98,9 +117,9 @@ public class PlayerController : Singleton<PlayerController> {
     /// <param name="direction">-1表示向左跳, 1表示向右跳</param>
     private void ForwardJump(int direction) {
         mCurrentX += direction;
-        if (direction  == -1) {
+        if (direction == -1) {
             //越界了
-            if (mCurrentX < 0 ) {
+            if (mCurrentX < 0) {
                 mCurrentX = 2;
                 var newVector3 = transform.position;
                 newVector3.x = 2 * characterPositionOffset;
@@ -128,11 +147,10 @@ public class PlayerController : Singleton<PlayerController> {
             AchievementManager.Instance.StartDecreaseXp();
             mIsFirstTap = false;
             mBackable = true;
+            backButton.interactable = true;
         }
         transform.Translate(Vector3.forward * characterPositionOffset);
-        Debug.Log(Vector3.forward * characterPositionOffset);
-
-        transform.GetComponent<Rigidbody>().AddForce(new Vector3(0f, jumpHeight*10, 0f));
+        transform.GetComponent<Rigidbody>().AddForce(new Vector3(0f, jumpHeight * 10, 0f));
     }
     /// <summary>
     /// 向后跳

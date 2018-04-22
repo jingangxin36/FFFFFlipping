@@ -20,8 +20,6 @@ public class GameController :Singleton<GameController> {
     /// 死亡时相关的UI响应
     /// </summary>
     public void GameOver() {
-        Debug.Log(player.position.z);
-
         PlayerController.Instance.SetPlayerKilled();
         //todo 显示成就, 功能按钮,
         var achievementInstance = AchievementManager.Instance;
@@ -38,5 +36,13 @@ public class GameController :Singleton<GameController> {
     public void ReLoadGame() {
         //Time.timeScale = 1;
         SceneManager.LoadScene("Demo");
+    }
+
+    public void PauseGame() {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame() {
+        Time.timeScale = 1;
     }
 }
