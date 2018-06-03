@@ -34,11 +34,11 @@ public class EnemyCell : Cell {
         Vector3 position = Player.transform.position;
         position.y = transform.position.y;
         Vector3 forward = transform.position - position;
-        Debug.Log(forward);
+//        Debug.Log(forward);
 
         if (forward != Vector3.zero) {
             Quaternion b = Quaternion.LookRotation(forward);
-            Debug.Log(b);
+//            Debug.Log(b);
 
             transform.rotation = Quaternion.Lerp(base.transform.rotation, b, Time.deltaTime * turnRate);
             float y = base.transform.eulerAngles.y;

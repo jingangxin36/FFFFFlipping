@@ -1,20 +1,56 @@
-# FFFFFlipping
+## FFFFFlipping
 
 此项目仅用于个人学习(●'◡'●)
 
 ### 游戏截图
 
-![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/1.png)
-![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/2.png)
-![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/3.png)
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/1.gif)
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/2.gif)
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/3.gif)
 ### APK下载
 
 [FFFFFlipping-V1.1.apk](https://github.com/jingangxin36/FFFFFlipping/releases/download/V1.1/FFFFFlipping-V1.1.apk)
 
-### 开发环境为
+### 开发环境
 
- - Unity 2017.3
- - VS 2015 
+ - Unity 2018.1
+
+### 主要技术
+
+#### 相机跟随
+
+**效果图**:
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/4.gif)
+
+**具体实现**:
+
+- [ Unity 实现人物相机前后跟随, 带延迟效果 ](https://blog.csdn.net/jingangxin666/article/details/80557766)
+
+#### 无限地图
+
+**效果图:**
+![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/5.gif)
+
+#### 敌人围绕
+
+//todo
+
+#### 重载场景后灯光变暗问题处理
+
+##### 原因：
+
+- 选择的光照是GI realtime实时光照，编辑器在当前场景时，它的灯光是已经渲染好了，但重新加载的时候灯光没有进行渲染
+
+##### 解决方法：
+
+- Window>>lighting>>settings>>右下角取消勾选auto，这时候是没有烘焙灯光的情形，重新加载场景后不再会变暗。
+-  如果需要烘培灯光，则点击Generate按钮即可，这时候将保存光照贴图信息，重新加载后也不会再变暗。
+
+##### 解决方法参考:
+
+- [Unity 2017 重新载入场景与灯光变暗问题处理](https://www.jianshu.com/p/6f7891a521d0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation) 
+
+
 
 ### 为什么叫做FFFFFlipping呢? 
 

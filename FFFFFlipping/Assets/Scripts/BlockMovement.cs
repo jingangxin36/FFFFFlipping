@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-//bug 地图block回收顺序有问题, 出现相同的block
 
 public class BlockMovement : MonoBehaviour {
 
