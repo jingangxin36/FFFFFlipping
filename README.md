@@ -8,7 +8,7 @@
 
 [FFFFFlipping-V1.1.apk](https://github.com/jingangxin36/FFFFFlipping/releases/download/V1.1/FFFFFlipping-V1.1.apk)
 
-### 怎么玩?
+### 3. 怎么玩?
 
 - 点键help按钮, 会显示操作提示
 - 你可以向左跳, 向右跳, 每次只能跳一步
@@ -18,13 +18,13 @@
 - 长时间没有加血, 呼吸和速度都会变慢! 然后死掉! 
 - 开始弹跳之旅吧
 
-### 开发环境
+### 4. 开发环境
 
  - Unity 2018.1
 
-### 技术关键点解析和拓展
+### 5. 技术关键点解析和拓展
 
-#### 碰撞检测
+#### 5.1 碰撞检测
 
 **项目中的使用场景**
 
@@ -33,12 +33,9 @@
 
 **拓展**:
 
-- [3D游戏的碰撞检测是如何实现的？](https://www.zhihu.com/question/266499219)
-- [Real-Time Rendering (9) ：碰撞检测](http://gad.qq.com/article/detail/32782)
-- [算法/围盒球，AABB，OBB](https://www.cnblogs.com/lyggqm/p/5386174.html)
-- [UE4的移动碰撞](https://zhuanlan.zhihu.com/p/33529865)
+- [游戏引擎架构----物理部分](https://blog.csdn.net/peerlessbloom/article/details/72643368)
 
-#### 相机跟随
+#### 5.2 相机跟随
 
 **效果图**:
 ![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/4.gif)
@@ -69,7 +66,7 @@ public class CameraMovement : MonoBehaviour {
 
 
 
-#### 无限地图拼接
+#### 5.3 无限地图拼接
 
 **效果图:**
 ![](https://github.com/jingangxin36/FFFFFlipping/blob/master/FFFFFlipping/Demo/5.gif)
@@ -92,7 +89,7 @@ public class BlockMovement : MonoBehaviour {
 }
 ```
 
-#### 敌人视觉模拟和角度跟随
+#### 5.4 敌人视觉模拟和角度跟随
 
 敌人看到主角时, 会转向主角
 
@@ -149,7 +146,7 @@ private void TurnTowardPlayer() {
   - [Unity学习笔记10——旋转（四元数和欧拉角）](https://blog.csdn.net/linshuhe1/article/details/51206377)
   - [三维空间刚体旋转描述](https://blog.csdn.net/zizi7/article/details/80763570) 
 
-#### 主角跳跃穿越效果
+#### 5.5 主角跳跃穿越效果
 
 **效果图为:**
 
@@ -188,7 +185,7 @@ private void TurnTowardPlayer() {
     }
 ```
 
-#### 血量不足时的减速处理
+#### 5.6 血量不足时的减速处理
 
 ```csharp
     public void LowBlood() {
@@ -202,7 +199,7 @@ private void TurnTowardPlayer() {
     }
 ```
 
-#### 重载场景后灯光变暗问题处理
+#### 5.7 重载场景后灯光变暗问题处理
 
 ##### 原因：
 
@@ -217,7 +214,7 @@ private void TurnTowardPlayer() {
 
 - [Unity 2017 重新载入场景与灯光变暗问题处理](https://www.jianshu.com/p/6f7891a521d0?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation) 
 
-### 哪些还可以做得更好
+### 6. 哪些还可以做得更好
 
 敌人AI, 项目当中暂时没有实现AI功能. 后期有机会我将会补上. 
 
@@ -226,7 +223,7 @@ private void TurnTowardPlayer() {
 - [基于 Unity 引擎的游戏开发进阶之 敌人AI](https://zhuanlan.zhihu.com/p/29195825)
 - [给猫看的游戏AI实战（二）视觉感知初步](https://zhuanlan.zhihu.com/p/28526310) 
 
-### 为什么叫做FFFFFlipping呢? 
+### 7. 为什么叫做FFFFFlipping呢? 
 
 纯属因为个人喜欢的两款放荡不羁的游戏
 
@@ -234,12 +231,12 @@ private void TurnTowardPlayer() {
 
 (2)[Flipping Legend (弹跳传奇)](https://itunes.apple.com/cn/app/flipping-legend/id1218046599?mt=8)
 
-### 个人博客
+### 8. 个人博客
 
-[jingangxin36](https://blog.csdn.net/jingangxin666)
+[CSDN: jingangxin36](https://blog.csdn.net/jingangxin666)
 
-### 个人邮箱
+### 9. 项目地址
 
-jingangxin36@foxmail.com
+[jingangxin36/FFFFFlipping](https://github.com/jingangxin36/FFFFFlipping)
 
 
